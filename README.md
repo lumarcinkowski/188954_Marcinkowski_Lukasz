@@ -19,16 +19,20 @@ threshold = 10
 imgThresh[imgInGray > threshold] = 255
 
 
-This section calculates the absolute difference between the original and edited images, converts them to grayscale, and applies a threshold to create a binary image (imgThresh), where pixel values above a certain threshold are set to 255.
+This code calculates the absolute difference between the original and edited images, converts them to grayscale, and applies a threshold to create a binary image (imgThresh), where pixel values above a certain threshold are set to 255.
 
 
-4. Find Contours:
+3. Find Contours:
 Loop iterates over each pixel in the binary image (imgThresh) and identifies contour points by checking if a pixel is white and if its neighboring pixels are black.
 
 
-5. Group Contours:
+4. Group Contours:
 Group contours into objects based on their proximity to each other.
-6. Find Largest Object:
-7. Draw Bounding Box:
 
+
+5. Draw Bounding Box around objects:
+![bounding_box](https://github.com/lumarcinkowski/object-detection/assets/162375638/fb82f52a-b5b4-4ad7-8e15-caeb4d5b1437)
+
+6. Find largest object
+ 
 ![bounding_box](https://github.com/lumarcinkowski/object-detection/assets/162375638/fb82f52a-b5b4-4ad7-8e15-caeb4d5b1437)
