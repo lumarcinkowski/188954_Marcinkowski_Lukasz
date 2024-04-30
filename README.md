@@ -8,11 +8,14 @@ imgOryginal
 
 2. Image Processing Operations:
 
-
 img = np.abs(imgOriginal.astype(int) - imgEdited.astype(int)).astype(np.uint8)
+
 imgInGray = np.dot(img[..., :3], [0.2989, 0.5870, 0.1140])
+
 imgThresh = np.zeros_like(imgInGray)
+
 threshold = 10
+
 imgThresh[imgInGray > threshold] = 255
 
 
