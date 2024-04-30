@@ -1,5 +1,7 @@
 This code uses the OpenCV library (cv2) and NumPy library (np). CV2 are used for only image loading.
 1. Next we read two images, one edited (dublin_edited.jpg) and one original (dublin.jpg), using OpenCV's imread function. These images are stored in imgEdited and imgOriginal variables respectively.
+
+
 imgOryginal
 ![dublin](https://github.com/lumarcinkowski/object-detection/assets/162375638/1a3affb8-637f-4826-a129-27e7e2d01b97)
 2. Image Processing Operations:
