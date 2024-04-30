@@ -34,5 +34,6 @@ Group contours into objects based on their proximity to each other.
 ![bounding_box](https://github.com/lumarcinkowski/object-detection/assets/162375638/fb82f52a-b5b4-4ad7-8e15-caeb4d5b1437)
 
 6. Find largest object
+The next step is to find the largest object and cut it out of the image.  
  
-![bounding_box](https://github.com/lumarcinkowski/object-detection/assets/162375638/fb82f52a-b5b4-4ad7-8e15-caeb4d5b1437)
+
