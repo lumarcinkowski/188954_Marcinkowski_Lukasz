@@ -31,14 +31,19 @@ Group contours into objects based on their proximity to each other.
 
 
 5. Draw Bounding Box around objects:
+ImgEdited
+
+
 ![bounding_box](https://github.com/lumarcinkowski/object-detection/assets/162375638/fb82f52a-b5b4-4ad7-8e15-caeb4d5b1437)
 
 
-6. Find largest object
+7. Find largest object
 The next step is to find the largest object and cut it out of the image.
 
-7.Cut out the largest image without the background
-Use dilatation operation 
+8. Cut out the largest image without the background
+Delete alpha channel from image. Use dilatation and erosion operations to improve quality of mask and picture without background. 
+
+
 Mask of the image
 
 
